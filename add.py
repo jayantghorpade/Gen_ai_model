@@ -4,7 +4,8 @@ def add(val):
     if val>0:
         sum=sum+val
         add(val-1)
-    return sum
+    else:
+        print(sum)
         
 
 
