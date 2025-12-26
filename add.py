@@ -4,7 +4,12 @@ def add(val):
     if val>0:
         sum=sum+val
         add(val-1)
+<<<<<<< HEAD
     return sum,34
+=======
+    else:
+        print(sum)
+>>>>>>> design
         
 
 
